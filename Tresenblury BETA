@@ -1,0 +1,262 @@
+--About--
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Tresenblury (BETA)", HidePremium = false, IntroText = "Loading script...", SaveConfig = true, ConfigFolder = "OrionTest"})
+OrionLib:MakeNotification({
+	Name = "Welcome",
+	Content = "Welcome to my script - MATTSUN9746 :D",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+--Tabs--
+
+local Tab11 = Window:MakeTab({
+	Name = "Script tester",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab10 = Window:MakeTab({
+	Name = "Reports",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab9 = Window:MakeTab({
+	Name = "credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab8 = Window:MakeTab({
+	Name = "Humanoid",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab7 = Window:MakeTab({
+	Name = "Fe scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab5 = Window:MakeTab({
+	Name = "Admin cmds",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab4 = Window:MakeTab({
+	Name = "Tools",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab3 = Window:MakeTab({
+	Name = "Control Panel",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab2 = Window:MakeTab({
+	Name = "Gamepasses",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab = Window:MakeTab({
+	Name = "Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab6 = Window:MakeTab({
+	Name = "Premium only",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = True
+})
+
+--Section--
+
+local Section = Tab11:AddSection({
+	Name = "Script tester section type in chat /console"
+})
+local Section = Tab10:AddSection({
+	Name = "pls report it at email=sandhya.jnp2012@gmail.com"
+})
+local Section = Tab9:AddSection({
+	Name = "Made By Roblox user named=MATTSUN9746 thanks for using my script :D"
+})
+local Section = Tab8:AddSection({
+	Name = "Humanoid section"
+})
+local Section = Tab7:AddSection({
+	Name = "Fe script section"
+})
+local Section = Tab2:AddSection({
+	Name = "Gamepass section"
+})
+local Section = Tab:AddSection({
+	Name = "script section"
+})
+local Section = Tab3:AddSection({
+	Name = "Control panel section"
+})
+local Section = Tab4:AddSection({
+	Name = "Tools section"
+})
+local Section = Tab5:AddSection({
+	Name = "Admin section"
+})
+local Section = Tab6:AddSection({
+	Name = "Premium section"
+})
+
+--Buttons--
+
+Tab:AddButton({
+	Name = "JulHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Brookhaven R4D",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Ghost hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Harlen hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/harlenscripts/HarlenHub/main/HarlenScripts"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "pet simulator 99 script",
+	Callback = function()
+      		loadstring(game:HttpGet("https://scriptblox.com/raw/BACKROOMS-Pet-Simulator-99!-ZapHub-The-Best-PS99-Script-12975"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Break in 2 script",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Multi-Scripter-X",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Multi-Scripter-X/main/loader"))()
+  	end    
+})
+Tab2:AddButton({
+	Name = "Free gamepass V1",
+	Callback = function()
+      		for _,v in pairs(game:GetDescendants()) do if v.ClassName == "RemoteEvent" then if v.Parent.Name == "WeaponsRemotes" or v.Parent.Name == "VipRemotes" or v.Parent.Name == "Remotes" then v:FireServer() end end end
+  	end    
+})
+Tab2:AddButton({
+	Name = "Free Gamepass V2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/6982de484735e730494b2d5a10fd6a2a/raw/a92563b0cd6a63683341a09f54baccea5349ed69/feGamepassV2",true))()
+  	end    
+})
+Tab3:AddButton({
+	Name = "Make yourself admin",
+	Callback = function()
+      		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-Admin-no-byfron-ui-11288"))()
+  	end    
+})
+Tab4:AddButton({
+	Name = "Fe tool giver",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/AZVi2tuK"))()
+  	end    
+})
+Tab5:AddButton({
+	Name = "Proton Admin (SPECIAL)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5e6e6cc1bb32fd926764d064e2c60a3b.lua"))()
+  	end    
+})
+Tab5:AddButton({
+	Name = "Nameless admin No byfron",
+	Callback = function()
+      		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-Admin-no-byfron-ui-11288"))()
+  	end    
+})
+Tab5:AddButton({
+	Name = "Tiger admin (WORKS ONLY IN PRISON LIFE)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
+  	end    
+})
+Tab5:AddButton({
+	Name = "Infinite yield",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+Tab5:AddButton({
+	Name = "Fates admin",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+  	end    
+})
+Tab5:AddButton({
+	Name = "Reviz admin",
+	Callback = function()
+      		loadstring(game:HttpGetAsync("https://pastebin.com/raw/Caniwq2N"))()
+  	end    
+})
+Tab6:AddButton({
+	Name = "HD admin (PATCHED SORRY)",
+	Callback = function()
+      		print("Patched")
+  	end    
+})
+Tab7:AddButton({
+	Name = "Fe bypass gui (WORKS IN ALL GAME BUT DOES NOT KILL ANY PLAYER ONLY KILL PLAYERS IN PRISON LIFE)",
+	Callback = function()
+      		loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\103\48\48\108\88\112\108\111\105\116\101\114\47\103\48\48\108\88\112\108\111\105\116\101\114\47\109\97\105\110\47\70\101\37\50\48\98\121\112\97\115\115\34\44\32\116\114\117\101\41\41\40\41\10")()
+  	end    
+})
+Tab7:AddButton({
+	Name = "FE lag swith script (BEST SCRIPT FOR SWORD FIGHTING)",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Protected%20-%202023-05-28T225112.055.lua.txt'),true))()
+  	end    
+})
+Tab8:AddButton({
+	Name = "high Speed and jumpPower",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Shugare/Speed/main/S", true))()
+  	end    
+})
+Tab8:AddButton({
+	Name = "Infinite jump",
+	Callback = function()
+      		local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+  	end    
+})
+Tab11:AddTextbox({
+	Name = "Script tester",
+	Default = "Test your scripts here",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Cheaking your script you entered here...)
+	end	  
+})
+Tab11:AddButton({
+	Name = "Cheak your script",
+	Callback = function()
+      		print("Script is working!")
+  	end    
+})
+
+--Main--
+
+OrionLib:Init()
